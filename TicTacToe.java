@@ -2,7 +2,7 @@ package tictactoe;
 
 import java.util.Scanner;
 
-class TicTacToe {
+public class TicTacToe {
     char[][] board;
     char currentTurn;
     int x;
@@ -177,9 +177,7 @@ class TicTacToe {
             printBoard();
         }
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         TicTacToe game = new TicTacToe();
         // Start the program
